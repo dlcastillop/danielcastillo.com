@@ -34,6 +34,16 @@ h3 {
     margin-top: 1rem;
 }
 
+.ancho {
+    width: 16rem;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
 .contenedor {
     margin-top: 1rem;
 }
@@ -45,18 +55,4 @@ h3 {
 
 .titulo {
     font-size: 0.9rem;
-}
-
-@media (max-width: 991px) {
-    #social-media {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 767px) {
-    #social-media {
-        display: block;
-    }
 }
