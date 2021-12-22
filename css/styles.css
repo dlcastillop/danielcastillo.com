@@ -56,3 +56,59 @@ ul {
 .titulo {
     font-size: 0.9rem;
 }
+
+/* Modo oscuro */
+
+/* Botón */
+.switch-button {
+    display: inline-block;
+}
+
+.switch-button .switch-button__checkbox {
+    display: none;
+}
+
+.switch-button .switch-button__label {
+    background-color: #09cdf0;
+    width: 3.5rem;
+    height: 2rem;
+    border-radius: 2rem;
+    display: inline-block;
+    position: relative;
+}
+
+.switch-button .switch-button__label:before {
+    transition: .2s;
+    display: block;
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background-color: #fdffff;
+    content: '';
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 0px 1px #000;
+}
+
+.switch-button .switch-button__checkbox:checked + .switch-button__label {
+    background-color: #00a878;
+}
+
+.switch-button .switch-button__checkbox:checked + .switch-button__label:before {
+    transform: translateX(1.5rem);
+}
+
+/* Clases que se aplican en el modo oscuro */
+.enlaces {
+    border-bottom: dashed 1px #fff;
+    color: #fff;
+}
+
+.enlaces:hover {
+    border-bottom: none;
+    color: #fff;
+}
+
+.general {
+    background-color: #292828;
+    color: #fff;
+}
