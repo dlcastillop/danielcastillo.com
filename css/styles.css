@@ -1,0 +1,127 @@
+body {
+  background: linear-gradient(
+    127.44deg,
+    #2980b9 0%,
+    #6dd5fa 51.56%,
+    #ffffff 100%
+  );
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+button {
+  background: #0077c0;
+  border-color: #0077c0;
+  border-radius: 4.44444px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  gap: 7.11px;
+  height: 42px;
+  padding: 1.33333px 12.4444px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 48.83px;
+}
+
+h2 {
+  font-size: 39.06px;
+}
+
+h3 {
+  font-size: 31.25px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.margen-abajo-pequeño {
+  margin-bottom: 5px;
+}
+
+.margen-abajo-mediano {
+  margin-bottom: 15px;
+}
+
+.margen-abajo-secciones {
+  margin-bottom: 50px;
+}
+
+.contenido-secciones {
+  background: #ffffff;
+  border: 2.5px solid #000000;
+  border-radius: 10px;
+  padding: 30px 0;
+}
+
+/* Héroe */
+header {
+  margin-top: 30px;
+  text-align: center;
+}
+
+header button {
+  width: 257px;
+}
+
+header p {
+  font-size: 25px;
+}
+
+/* Proyectos */
+section#proyectos {
+  text-align: center;
+}
+
+section#proyectos a {
+  color: black;
+  text-decoration: none;
+}
+
+section#proyectos div.contenido-secciones {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+section#proyectos div.contenido-secciones p a {
+  color: #0077c0;
+  text-decoration: underline;
+}
+
+section#proyectos div.contenido-secciones p a:hover {
+  text-decoration: none;
+}
+
+section#proyectos p#más-proyectos {
+  font-size: 12.8px;
+}
+
+/* Contacto */
+section button {
+  width: 126px;
+}
+
+section#contacto {
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+footer a {
+  margin-left: 12.5px;
+  text-decoration: none;
+}

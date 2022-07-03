@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!--SEO-->
     <meta
       name="description"
@@ -90,70 +91,115 @@
     />
     <meta name="theme-color" content="#ffffff" />
 
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
     <!--Mi CSS-->
     <link rel="stylesheet" href="css/styles.css" />
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <img src="./images/daniel-castillo.png" alt="Foto de Daniel Castillo" />
-      <h1>Daniel Castillo</h1>
-      <p>Creo sitios web para profesionales y empresas</p>
-      <a href="mailto:dlcastillop3015@gmail.com">
-        <button>Hagamos el tuyo realidad</button>
-      </a>
-    </header>
-
-    <section>
-      <h2>Proyectos</h2>
-
-      <a href="https://focus-timer-app.netlify.com" target="_blank">
-        <img src="./images/focus-timer-logo.png" alt="Logo de Focus Timer" />
-        <h3>Focus Timer</h3>
-        <p>
-          Temporizador basado en la técnica del pomodoro con lista de tareas
-        </p>
-      </a>
-
-      <a
-        href="https://dlcastillop.github.io/Random-Quotes-Generator/"
-        target="_blank"
-      >
+    <div class="container">
+      <header class="margen-abajo-secciones">
         <img
-          src="./images/random-quotes-generator-logo.png"
-          alt="Logo de Random Quotes Generator"
+          src="./images/daniel-castillo.png"
+          alt="Foto de Daniel Castillo"
+          class="margen-abajo-mediano"
         />
-        <h3>Random Quotes Generator</h3>
-        <p>Generador de frases aleatorias</p>
-      </a>
+        <h1 class="margen-abajo-mediano">Daniel Castillo</h1>
+        <p class="margen-abajo-mediano">
+          Creo sitios web para profesionales y empresas
+        </p>
+        <a href="mailto:dlcastillop3015@gmail.com">
+          <button>Hagamos el tuyo realidad</button>
+        </a>
+      </header>
 
-      <p>
-        Encontrarás más proyectos en
-        <a
-          href="https://github.com/dlcastillop?tab=repositories"
-          target="_blank"
-          >GitHub</a
-        >.
-      </p>
-    </section>
+      <section id="proyectos" class="margen-abajo-secciones">
+        <h2 class="margen-abajo-mediano">Proyectos</h2>
 
-    <section>
-      <h2>Contacto</h2>
-      <p>
-        ¿Quieres que desarrolle el sitio web de tu negocio o deseas contratarme
-        como empleado?
-      </p>
-      <a href="mailto:dlcastillop3015@gmail.com">
-        <button>Hablemos</button>
-      </a>
-    </section>
+        <div class="row contenido-secciones">
+          <div class="col-5 margen-abajo-mediano">
+            <a href="https://focus-timer-app.netlify.com" target="_blank">
+              <img
+                src="./images/focus-timer-logo.png"
+                alt="Logo de Focus Timer"
+                class="margen-abajo-pequeño"
+              />
+              <h3 class="margen-abajo-pequeño">Focus Timer</h3>
+              <p>
+                Temporizador basado en la técnica del pomodoro con lista de
+                tareas
+              </p>
+            </a>
+          </div>
 
-    <footer>
-      <a href="https://linkedin.com/in/dlcastillop" target="_blank">
-        <img src="./images/linkedin-icono.png" alt="Icono de Linkedin" />
-      </a>
-      <a href="https://github.com/dlcastillop" target="_blank">
-        <img src="./images/github-icono.png" alt="Icono de GitHub" />
-      </a>
-    </footer>
+          <div class="col-5 margen-abajo-mediano">
+            <a
+              href="https://dlcastillop.github.io/Random-Quotes-Generator/"
+              target="_blank"
+            >
+              <img
+                src="./images/random-quotes-generator-logo.png"
+                alt="Logo de Random Quotes Generator"
+                class="margen-abajo-pequeño"
+              />
+              <h3 class="margen-abajo-pequeño">Random Quotes Generator</h3>
+              <p>Generador de frases aleatorias</p>
+            </a>
+          </div>
+
+          <p id="más-proyectos">
+            Encontrarás más proyectos en
+            <a
+              href="https://github.com/dlcastillop?tab=repositories"
+              target="_blank"
+              >GitHub</a
+            >.
+          </p>
+        </div>
+      </section>
+
+      <section id="contacto" class="margen-abajo-secciones row">
+        <h2 class="margen-abajo-mediano">Contacto</h2>
+        <div class="contenido-secciones">
+          <p class="margen-abajo-mediano">
+            ¿Quieres que desarrolle el sitio web de tu negocio o deseas
+            contratarme como empleado?
+          </p>
+          <a href="mailto:dlcastillop3015@gmail.com">
+            <button>Hablemos</button>
+          </a>
+        </div>
+      </section>
+
+      <footer>
+        <a href="https://linkedin.com/in/dlcastillop" target="_blank">
+          <img src="./images/linkedin-icono.png" alt="Icono de Linkedin" />
+        </a>
+        <a href="https://github.com/dlcastillop" target="_blank">
+          <img src="./images/github-icono.png" alt="Icono de GitHub" />
+        </a>
+      </footer>
+    </div>
+
+    <!--Bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
