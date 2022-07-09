@@ -73,6 +73,11 @@ header button {
   width: 257px;
 }
 
+header img {
+  border: 2.5px solid #000000;
+  border-radius: 50%;
+}
+
 header p {
   font-size: 25px;
 }
